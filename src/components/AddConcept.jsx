@@ -21,7 +21,7 @@ function AddConcept({onAdd, formData, setFormData, onMinimize, isMinimized}) {
   
 
   return (
-    <div className='fixed z-40 bottom-20 right-6 rounded-xl shadow-lg w-[400px]'>
+    <div className='fixed z-40 bottom-20 right-6 rounded-xl shadow-lg w-[400px] max-w-fit'>
 
       <div className='backdrop-blur-3xl text-cyan-400 px-4 py-2 rounded-t-xl flex justify-between items-center'>
       <span className='font-bold text-2xl mx-auto'>
